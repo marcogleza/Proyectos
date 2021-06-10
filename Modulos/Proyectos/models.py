@@ -45,6 +45,7 @@ class catestatus(models.Model):
     estatus=models.CharField(max_length=1)
 
 class catumbral(models.Model):
+    
     cveumbral=models.CharField(max_length=2, primary_key=True)
     limite1inferior=models.FloatField()
     limite1superior=models.FloatField()

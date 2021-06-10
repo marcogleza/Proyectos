@@ -19,6 +19,7 @@ from Modulos.Proyectos.views import formulariocontacto, contactar
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+
     path('formulariocontacto/', formulariocontacto),
     path('contactar/', contactar)
 ]
